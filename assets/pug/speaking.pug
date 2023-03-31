@@ -1,0 +1,17 @@
+if helper.validArray(resume.speaking)
+    div(class='speaking margin-container-4')
+        p(class='section-title no-alone-2') Public Speaking
+        div(class='container')
+            each speaking in resume.speaking
+                div(class='article margin-container-3')
+                    div(class='header no-alone-1')
+                        div(class='table')
+                            div(class='left' style='display:table-cell;')
+                                span(class='event')=speaking.event
+                                span(class='company-location margin-text-1')
+                                    a(href=speaking.reference)=speaking.topic
+                                    if speaking.topic && speaking.location
+                                        | #{' · '}
+                                    | #{speaking.location}
+                            div(class='right' style='display:table-cell; float:right;')
+                                span(class='dates')=helper.beautifyDate(speaking.date)

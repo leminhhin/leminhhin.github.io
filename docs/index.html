@@ -1,0 +1,316 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+span {
+  display: block; }
+
+p {
+  margin: 0; }
+
+@page {
+  size: A4;
+  margin: 10mm 0 10mm 0; }
+
+@page :first {
+  margin-top: 10mm; }
+
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none; }
+  a[href] {
+    text-decoration: underline;
+    text-decoration-color: #555555; }
+
+p {
+  line-height: 1.2; }
+
+li {
+  line-height: 1.3; }
+  li:first-child {
+    margin-top: 0; }
+
+.content {
+  width: 1000px;
+  height: auto;
+  /* padding: 0 50px; */
+  /* margin: 0 auto; */
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222; }
+
+.table {
+  width: 100%;
+  display: table;
+  padding: 5px 0; }
+  .table .main {
+    display: table-cell;
+    width: 100%;
+    /* width: 70%; */
+    /* padding-right: 50px; */
+  }
+    .table .main .highlights {
+      width: auto;
+      display: block;
+      padding: 0 10px;
+      margin-top: 12.30769px;
+      margin-bottom: 0;
+      text-align: justify;
+      column-gap: 10px; }
+      .table .main .highlights li {
+        font-size: 16px;
+        list-style: none;
+        line-height: 1.2; }
+        .table .main .highlights li:before {
+          content: "· ";
+          vertical-align: middle; }
+  .table .side {
+    display: table-cell;
+    width: 15%;
+    padding-left: 50px;
+    text-align: right; }
+    .table .side p {
+      line-height: 1.3; }
+
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 5px 0; }
+
+.margin-container-2:not(:first-child) {
+  margin-top: 20px; }
+
+.margin-container-3:not(:first-child) {
+  margin-top: 10px; }
+
+.margin-container-4:not(:first-child) {
+  margin-top: 50px; }
+
+.margin-text-1 {
+  margin-top: 0.25em; }
+  .margin-text-1:empty {
+    display: none; }
+
+.margin-text-2 {
+  margin-top: 0.5em; }
+  .margin-text-2:empty {
+    display: none; }
+
+.margin-text-3 {
+  margin-top: 1em; }
+  .margin-text-3:empty {
+    display: none; }
+
+.no-break {
+  break-inside: avoid; }
+
+.no-alone-1 {
+  break-inside: avoid; }
+  .no-alone-1::after {
+    content: "";
+    display: block;
+    height: 75px;
+    margin-bottom: -75px; }
+
+.no-alone-2 {
+  break-inside: avoid; }
+  .no-alone-2::after {
+    content: "";
+    display: block;
+    height: 150px;
+    margin-bottom: -150px; }
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder; }
+
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder; }
+
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder; }
+
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold; }
+
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold; }
+
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold; }
+
+.markdown ul, .markdown ol {
+  margin-left: 20px; }
+
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center; }
+
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px; }
+  .markdown blockquote p {
+    display: inline; }
+
+.markdown code {
+  font-family: monospace; }
+
+.basics .main {
+  vertical-align: middle; }
+  .basics .main .name {
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: bold;
+    display: block;
+    margin-left: -3.5px; }
+  .basics .main .label {
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: lighter;
+    display: block;
+    margin-left: -1.2px; }
+
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px; }
+  .basics .side .contact {
+    font-size: 14px;
+    list-style-type: none; }
+    .basics .side .contact li {
+      line-height: 1.5em; }
+
+.basics .summary {
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: justify; }
+
+.work .header .table {
+  padding: 0; }
+  .work .header .table .left {
+    display: table-cell; }
+    .work .header .table .left .position {
+      font-size: 18px;
+      font-weight: bold;
+      display: block; }
+    .work .header .table .left .company-location {
+      font-size: 17px;
+      font-weight: lighter;
+      display: block; }
+      .work .header .table .left .company-location a {
+        text-decoration-color: #888888; }
+  .work .header .table .right {
+    text-align: right;
+    display: table-cell; }
+    .work .header .table .right .dates {
+      font-size: 15px;
+      font-weight: lighter; }
+
+.work .summary {
+  font-size: 16px;
+  padding: 0;
+  margin-top: 12.30769px; }
+  .work .summary:empty {
+    display: none; }
+
+.projects .header .name {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block; }
+  .projects .header .name a {
+    text-decoration-color: #222222; }
+
+.projects .header .roles {
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block; }
+
+.projects .description {
+  font-size: 16px;
+  padding: 0;
+  margin-top: 12.30769px;
+  text-align: justify; }
+  .projects .description:empty {
+    display: none; }
+
+.skills .section-title {
+  margin: 0; }
+
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px; }
+  .skills .container .article {
+    break-inside: avoid-column;
+    width: 120px;
+    padding-top: 20px; }
+    .skills .container .article span {
+      display: block;
+      font-size: 18px;
+      font-weight: lighter; }
+    .skills .container .article li {
+      font-size: 16px;
+      list-style: none;
+      line-height: 1.3; }
+
+.education .title {
+  font-size: 16px; }
+
+.education .institution {
+  font-size: 16px;
+  font-weight: lighter; }
+  .education .institution a {
+    text-decoration-color: #888888; }
+
+.certificates .name {
+  font-size: 16px; }
+
+.certificates .issuer {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 0.35em; }
+
+.awards .header .title {
+  font-size: 16px;
+  display: inline-block; }
+
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 16px;
+  display: inline-block; }
+
+.awards .summary {
+  font-size: 14px; }
+
+.languages ul {
+  list-style: none; }
+  .languages ul li {
+    font-size: 14px; }
+
+.interests ul {
+  list-style: none; }
+  .interests ul li {
+    font-size: 16px; }
+
+.links ul {
+  list-style: none; }
+  .links ul li {
+    font-size: 14px; }
+</style><title>Le Minh Hien</title></head><body><div class="content"><div class="basics"><div class="table"><div class="main"><span class="name">Le Minh Hien</span><span class="label"></span><div style="margin-bottom: 20px; margin-top: 20px;"><div style="text-align: left;"><span style="width:33%; display: inline-block">Ho Chi Minh City, Vietnam</span><span style="width:33%; display: inline-block"><a href="tel:(+84) 901 848 658"><strong>(+84) 901 848 658</strong></a></span></div><div style="text-align: left; margin-top: 10px;"><span style="width:33%; display: inline-block;"><a href="mailto:minh.hin.le@gmail.com"><strong>minh.hin.le@gmail.com</strong></a></span><span style="width:33%; display: inline-block;"><a href="https://www.linkedin.com/in/leminhhin/"><strong>linkedin.com</strong>/in/leminhhin</a></span><span style="width:33%; display: inline-block;"><a href="https://github.com/leminhhin/"><strong>github.com</strong>/leminhhin</a></span></div></div></div></div></div><div class="table"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Education</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">BSc in Computer Science, Honors Program</span><span class="company-location margin-text-1"><a href="https://www.hcmus.edu.vn/">VNUHCM - University of Science</a> · HCMC, Vietnam</span></div><div class="right"><span class="dates">2019 - expected 2023</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Honors program: Selected for the Honors class based on academic achievement and demonstrated potential.</li><li>Working thesis: Diffusion-based Assistant System for Advanced Design</li><li>Relevant coursework: Deep Learning, Machine Learning, Artificial Intelligence, Pattern Recognition, and Computer Vision.</li></ul></div></div></div><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Algorithm Development Engineer</span><span class="company-location margin-text-1"><a href="https://www.linkedin.com/company/fossil/">Fossil Group</a> · HCMC, Vietnam</span></div><div class="right"><span class="dates">Jan 2022 - Present</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Optimized deep learning models for sleep stage classification using signals obtained from wearable devices through multiple experimental studies. [Tensorflow, AWS SageMaker]</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position">Algorithm Development Intern</span><span class="company-location margin-text-1"><a href="https://www.linkedin.com/company/fossil/">Fossil Group</a> · HCMC, Vietnam</span></div><div class="right"><span class="dates">Jan 2022 - Jan 2022</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Developed and optimized regression deep learning models to accurately estimate blood pressure levels using PPG signals captured from wearable devices, enhancing the capabilities of wellness tracking and enabling timely intervention for individuals with hypertension. [TensorFlow, AWS SageMaker]</li><li>Designed an ML system that achieved human-level performance in classifying high-quality PPG signal segments, replacing the labeling team, and improving data acquisition efficiency and scalability. [CatBoost, NumPy]</li><li>Conducted in-depth analysis and feature engineering on PPG signals to extract temporal features that effectively captured their unique characteristics, resulting in a more reliable blood pressure estimation model. [SciPy, NumPy]</li></ul></div></div></div><div class="work margin-container-4"><p class="section-title no-alone-2">Achievements</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a>Top 10 Zalo AI Challenge</a></span><span class="company-location margin-text-1"><a href="https://zalo.ai/">Zalo AI</a></span></div><div class="right"><span class="dates">2022</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Led a team of four to solve the challenge of aligning lyrics to music audio using machine learning techniques.</li><li>Designed and implemented a system that separated vocals from the audio, extracted acoustic features, and applied the CTC segmentation algorithm.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a>Top 1% VNUHCM Academic Performance Test</a></span><span class="company-location margin-text-1"><a href="https://vnuhcm.edu.vn/">Vietnam National University Ho Chi Minh City</a></span></div><div class="right"><span class="dates">2019</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Achieved outstanding results in an academic performance test administered by VNUHCM, placing in the top 1% among over 40,000 participants in Vietnam.</li><li>Demonstrated proficiency in a range of competencies, including linguistic ability, mathematics, data analysis, logical thinking, and problem-solving.</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a href="https://drive.google.com/file/d/1C7uB8Y18CXA6sF0cnv_65NpTC_nKE522/view">7.5 IELTS</a></span><span class="company-location margin-text-1"><a href="https://www.idp.com/vietnam/">IDP</a></span></div><div class="right"><span class="dates">2019</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>8.5 Reading &amp; 8.5 Listening</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a href="https://drive.google.com/file/d/1HjrZWHkb_emDu6nRNtW7ukG4jEm1Ls77/view">Top 27% Australian Mathematics Competition</a></span><span class="company-location margin-text-1"><a href="https://www.amt.edu.au/">Australian Maths Trust</a></span></div><div class="right"><span class="dates">2015</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Placed in the top 27% of New Zealand's Intermediate division in a prestigious international mathematics competition with over 600,000 participants from 38 different countries.</li><li>Demonstrated proficiency in problem-solving across various mathematical domains, including algebra, geometry, statistics, and probability.</li></ul></div></div></div><div class="work margin-container-4"><p class="section-title no-alone-2">Certificates</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/LAPWCCHPJ36K">Deep Learning Specialization</a></span><span class="company-location margin-text-1"><a href="https://www.coursera.org/specializations/deep-learning">DeepLearning.AI</a></span></div><div class="right"><span class="dates">2022</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Completed  a 5-course program taught by Andrew Ng, focused on developing deep learning models in computer vision and natural language processing and utilizing industry best practices.</li><li>Built and applied deep learning models, including CNNs, RNNs, and Transformers to solve problems such as visual detection, recognition, and question-answering. [TensorFlow, NumPy]</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="position"><a href="https://certificates.cs50.io/6fa98295-ac49-49d6-8c69-d9b776d6c2d0.pdf?size=letter">Harvard CS50 Introduction to AI</a></span><span class="company-location margin-text-1"><a href="https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python">Harvard University</a></span></div><div class="right"><span class="dates">2021</span></div></div></div><div class="summary markdown"></div><ul class="highlights no-break"><li>Explored the concepts and algorithms behind modern AI and machine learning, including graph search algorithms, classification, optimization, and reinforcement learning.</li><li> Designed intelligent agents for games like Minesweeper and Tic Tac Toe as part of practical experience gained with machine learning libraries and theoretical knowledge.</li></ul></div></div></div></div></div></div></body></html>

@@ -1,0 +1,403 @@
+{
+    "$schema": "https://raw.githubusercontent.com/anthonyjdella/customized-resume-schema/main/schema.json",
+    "basics": {
+        "name": "Le Minh Hien",
+        "email": "minh.hin.le@gmail.com",
+        "phone": "(+84) 901 848 658",
+        "summary": "I write code on stage in front of a crowd. With 5+ years of experience in full-stack software development, I aim to teach and inspire thousands of developers to build cool things with code. I enjoy sparking the imagination of developers and helping them build deep experiences with technology. I'm interested in applying creativity to software engineering, public speaking, advocating for the developer community, creating technical content and storytelling, improving developer experiences, contributing to open-source software, and influencing teams to build great products.",
+        "location": {
+            "countryCode": "Vietnam",
+            "address": "Ho Chi Minh City"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "leminhhin",
+                "url": "https://www.linkedin.com/in/leminhhin/"
+            },
+            {
+                "network": "GitHub",
+                "username": "leminhhin",
+                "url": "https://github.com/leminhhin/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Fossil Group",
+            "position": "Algorithm Development Engineer",
+            "startDate": "Nov 2022",
+            "endDate": "present",
+            "highlights": [
+                "Optimized deep learning models for sleep stage classification using signals obtained from wearable devices through multiple experimental studies. [Tensorflow, AWS SageMaker]"
+            ],
+            "summary": "",
+            "url": "https://www.linkedin.com/company/fossil/",
+            "location": "HCMC, Vietnam"
+        },
+        {
+            "name": "Fossil Group",
+            "position": "Algorithm Development Intern",
+            "startDate": "May 2022",
+            "endDate": "Nov 2022",
+            "highlights": [
+                "Developed and optimized regression deep learning models to accurately estimate blood pressure levels using PPG signals captured from wearable devices, enhancing the capabilities of wellness tracking and enabling timely intervention for individuals with hypertension. [TensorFlow, AWS SageMaker]",
+                "Designed an ML system that achieved human-level performance in classifying high-quality PPG signal segments, replacing the labeling team, and improving data acquisition efficiency and scalability. [CatBoost, NumPy]",
+                "Conducted in-depth analysis and feature engineering on PPG signals to extract temporal features that effectively captured their unique characteristics, resulting in a more reliable blood pressure estimation model. [SciPy, NumPy]"
+            ],
+            "summary": "",
+            "url": "https://www.linkedin.com/company/fossil/",
+            "location": "HCMC, Vietnam"
+        }
+        
+    ],
+    "volunteer": [],
+    "community": [
+        {
+            "name": "Code and Coffee",
+            "location": "Seattle, WA",
+            "description": "Software community for developers by developers",
+            "position": "Founder & Organizer",
+            "url": "https://www.meetup.com/seattle-code-and-coffee/",
+            "startDate": "2022-10",
+            "endDate": "present",
+            "summary": "",
+            "highlights": [
+                "Organized Seattle's Code and Coffee chapter, a community for developers by developers."
+            ],
+            "skills": ["Community Management", "Public Speaking"]
+        },
+        {
+            "name": "Twilo Seattle Meetup",
+            "location": "Seattle, WA",
+            "description": "Twilio Seattle Meetup Group",
+            "position": "Founder & Organizer",
+            "url": "https://www.meetup.com/twilio-seattle-meetup-group/",
+            "startDate": "2022-07",
+            "endDate": "present",
+            "summary": "",
+            "highlights": [
+                "Organized Twilio's first meetup group in Seattle.",
+                "Teach hundreds of developers how to build projects with Twilio."
+            ],
+            "skills": ["Community Management", "Public Speaking"]
+        }
+    ],
+    "speaking": [
+        {
+            "event": "Twilio Meetup",
+            "location": "Seattle, WA",
+            "topic": "Do You Like Scary Movies?",
+            "reference": "https://noti.st/anthonyjdella/YEMatV/do-you-like-scary-movies",
+            "date": "2022-10-24"
+        },
+        {
+            "event": "Spiceworld",
+            "location": "Austin, TX",
+            "topic": "Summarize Text from Images Using Twilio",
+            "reference": "https://noti.st/anthonyjdella/L6gFMA/summarize-text-from-images-using-ai-and-twilio",
+            "date": "2022-09-28"
+        },
+        {
+            "event": "PennApps",
+            "location": "Philadelphia, PA",
+            "topic": "Summarize Text from Images Using Twilio",
+            "reference": "https://noti.st/anthonyjdella/imxRTl/summarize-text-from-images-using-ai-and-twilio",
+            "date": "2022-09-03"
+        },
+        {
+            "event": "Twilio Meetup",
+            "location": "Seattle, WA",
+            "topic": "Learning to Code?",
+            "reference": "https://noti.st/anthonyjdella/U9Vpix/learning-to-code-lets-send-texts-by-writing-code",
+            "date": "2022-08-18"
+        },
+        {
+            "event": "API Days",
+            "location": "New York City, NY",
+            "topic": "Gaining Trust in APIs and What to Look For",
+            "reference": "https://www.youtube.com/watch?v=elgcCqnNeEs",
+            "date": "2022-07-28"
+        },
+        {
+            "event": "API Days",
+            "location": "New York City, NY",
+            "topic": "Live Code an App that Texts NBA News",
+            "reference": "https://www.youtube.com/watch?v=LnfYf6baTQs",
+            "date": "2022-07-28"
+        },
+        {
+            "event": "Transform Together",
+            "location": "Chicago, IL",
+            "topic": "Mars Rover Emails with Twilio Sendgrid",
+            "reference": "https://noti.st/anthonyjdella/6TEdbM/mars-rover-emails-with-twilio-sendgrid",
+            "date": "2022-06-16"
+        }
+    ],
+    "writing": [
+        {
+            "name": "Gaining Trust in APIs",
+            "reference": "https://anthonydellavecchia.com/blog/gaining_trust_in_apis/",
+            "date": "2022-11"
+        },
+        {
+            "name": "Do You Like Scary Movies?",
+            "reference": "https://www.twilio.com/blog/do-you-like-scary-movies-build-a-halloween-project-with-twilio",
+            "date": "2022-10"
+        },
+        {
+            "name": "Summarize Text from Images using AI and Twilio",
+            "reference": "https://www.twilio.com/blog/summarize-text-from-images-using-ai-and-twilio",
+            "date": "2022-09"
+        },
+        {
+            "name": "Get the Latest NBA Sent to Your Phone via SMS",
+            "reference": "https://www.twilio.com/blog/get-the-latest-nba-news-sent-to-your-phone-via-sms",
+            "date": "2022-07"
+        },
+        {
+            "name": "Introducing Developer Evangelist Anthony",
+            "reference": "https://www.twilio.com/blog/introducing-twilio-developer-evangelist-anthony-dellavecchia",
+            "date": "2022-06"
+        },
+        {
+            "name": "What Are APIs Part 2",
+            "reference": "https://anthonydellavecchia.com/blog/what-are-apis-2/",
+            "date": "2022-03"
+        },
+        {
+            "name": "What Are APIs Part 1",
+            "reference": "https://anthonydellavecchia.com/blog/what-are-apis-1/",
+            "date": "2022-02"
+        },
+        {
+            "name": "Fonts For Programmers",
+            "reference": "https://anthonydellavecchia.com/blog/fonts-for-programmers/",
+            "date": "2022-01"
+        },
+        {
+            "name": "Updating My Avatar",
+            "reference": "https://anthonydellavecchia.com/blog/updating-my-avatar/",
+            "date": "2022-01"
+        },
+        {
+            "name": "MongoDB Atlas Hackathon",
+            "reference": "https://anthonydellavecchia.com/blog/mongodb-atlas-hackathon/",
+            "date": "2022-01"
+        },
+        {
+            "name": "Rogue Dev Purposely Breaks Software",
+            "reference": "https://anthonydellavecchia.com/blog/rogue-dev-purposely-breaks-software/",
+            "date": "2022-01"
+        },
+        {
+            "name": "How to Add Search to Your Hugo Site",
+            "reference": "https://anthonydellavecchia.com/blog/how-to-add-search-to-your-hugo-static-site/",
+            "date": "2022-01"
+        },
+        {
+            "name": "Is 99% Good?",
+            "reference": "https://anthonydellavecchia.com/blog/is-99-good/",
+            "date": "2022-01"
+        },
+        {
+            "name": "How to Forward Emails to Your Domain",
+            "reference": "https://anthonydellavecchia.com/blog/how-to-forward-emails-to-your-domain/",
+            "date": "2021-12"
+        },
+        {
+            "name": "Launch Insights",
+            "reference": "https://anthonydellavecchia.com/blog/launch-insights/",
+            "date": "2021-12"
+        },
+        {
+            "name": "How to Check your Websites Users",
+            "reference": "https://anthonydellavecchia.com/blog/how-to-check-your-website-users/",
+            "date": "2021-12"
+        },
+        {
+            "name": "How to Animate an Emoji with CSS",
+            "reference": "https://anthonydellavecchia.com/blog/how-to-animate-an-emoji-with-css/",
+            "date": "2021-12"
+        },
+        {
+            "name": "Designing an Animated Logo",
+            "reference": "https://anthonydellavecchia.com/blog/designing-an-animated-logo/",
+            "date": "2021-10"
+        },
+        {
+            "name": "Magic Numbers",
+            "reference": "https://anthonydellavecchia.com/blog/magic-numbers/",
+            "date": "2021-04"
+        },
+        {
+            "name": "How to Never Miss Out on a Job Opportunity",
+            "reference": "https://anthonydellavecchia.com/blog/how-to-never-miss-out-on-a-job-opening/",
+            "date": "2018-03"
+        }
+    ],
+    "education": [
+        {
+            "institution": "VNUHCM - University of Science",
+            "url": "https://www.hcmus.edu.vn/",
+            "area": "Computer Science, Honors Program",
+            "studyType": "BSc",
+            "startDate": "2019",
+            "endDate": "expected 2023",
+            "location": "HCMC, Vietnam",
+            "highlights": [
+                "Honors program: Selected for the Honors class based on academic achievement and demonstrated potential.",
+                "Working thesis: Diffusion-based Assistant System for Advanced Design",
+                "Relevant coursework: Deep Learning, Machine Learning, Artificial Intelligence, Pattern Recognition, and Computer Vision."
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "name": "Top 10 Zalo AI Challenge",
+            "organizer": "Zalo AI",
+            "organizerUrl": "https://zalo.ai/",
+            "issueDate": "2022",
+            "highlights": [
+                "Led a team of four to solve the challenge of aligning lyrics to music audio using machine learning techniques.",
+                "Designed and implemented a system that separated vocals from the audio, extracted acoustic features, and applied the CTC segmentation algorithm."
+            ]
+        },
+        {
+            "name": "Top 1% VNUHCM Academic Performance Test",
+            "organizer": "Vietnam National University Ho Chi Minh City",
+            "organizerUrl": "https://vnuhcm.edu.vn/",
+            "issueDate": "2019",
+            "highlights": [
+                "Achieved outstanding results in an academic performance test administered by VNUHCM, placing in the top 1% among over 40,000 participants in Vietnam.",
+                "Demonstrated proficiency in a range of competencies, including linguistic ability, mathematics, data analysis, logical thinking, and problem-solving."
+            ]
+        },
+        {
+            "name": "7.5 IELTS",
+            "certUrl": "https://drive.google.com/file/d/1C7uB8Y18CXA6sF0cnv_65NpTC_nKE522/view",
+            "organizer": "IDP",
+            "organizerUrl": "https://www.idp.com/vietnam/",
+            "issueDate": "2019",
+            "highlights": [
+                "8.5 Reading & 8.5 Listening"
+            ]
+        },
+        {
+            "name": "Top 27% Australian Mathematics Competition",
+            "certUrl": "https://drive.google.com/file/d/1HjrZWHkb_emDu6nRNtW7ukG4jEm1Ls77/view",
+            "organizer": "Australian Maths Trust",
+            "organizerUrl": "https://www.amt.edu.au/",
+            "issueDate": "2015",
+            "highlights": [
+                "Placed in the top 27% of New Zealand's Intermediate division in a prestigious international mathematics competition with over 600,000 participants from 38 different countries.",
+                "Demonstrated proficiency in problem-solving across various mathematical domains, including algebra, geometry, statistics, and probability."
+            ]
+        }
+        
+    ],
+    "certificates": [
+        {
+            "name": "Deep Learning Specialization",
+            "organizer": "DeepLearning.AI",
+            "certUrl": "https://www.coursera.org/account/accomplishments/specialization/certificate/LAPWCCHPJ36K",
+            "courseUrl": "https://www.coursera.org/specializations/deep-learning",
+            "issueDate": "2022",
+            "highlights": [
+                "Completed  a 5-course program taught by Andrew Ng, focused on developing deep learning models in computer vision and natural language processing and utilizing industry best practices.",
+                "Built and applied deep learning models, including CNNs, RNNs, and Transformers to solve problems such as visual detection, recognition, and question-answering. [TensorFlow, NumPy]"
+            ]
+        },
+        {
+            "name": "Harvard CS50 Introduction to AI",
+            "organizer": "Harvard University",
+            "certUrl": "https://certificates.cs50.io/6fa98295-ac49-49d6-8c69-d9b776d6c2d0.pdf?size=letter",
+            "courseUrl": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+            "issueDate": "2021",
+            "highlights": [
+                "Explored the concepts and algorithms behind modern AI and machine learning, including graph search algorithms, classification, optimization, and reinforcement learning.",
+                " Designed intelligent agents for games like Minesweeper and Tic Tac Toe as part of practical experience gained with machine learning libraries and theoretical knowledge."
+            ]
+        }
+    ],
+    "publications": [],
+    "leadership": [],
+    "skills": [
+        {
+            "name": "Developer Relations",
+            "level": "",
+            "keywords": [
+                "Public Speaking",
+                "Technical Content Creation",
+                "Writing",
+                "Video Production",
+                "Social Media",
+                "Empathy"
+            ]
+        },
+        {
+            "name": "Software Development",
+            "level": "",
+            "keywords": [
+                "Python",
+                "Java",
+                "Git",
+                "CI/CD",
+                "HTML/CSS/JavaScript",
+                "DevOps"
+            ]
+        }
+    ],
+    "languages": [],
+    "interests": [],
+    "references": [],
+    "projects": [
+        {
+            "name": "TwilioQuest Extension",
+            "startDate": "",
+            "summary": "Built a mission in TwilioQuest, Twilio's educational video game, to attract and teach developers how to use Twilio at tech events. The mission includes coding challenges for players, conversations with NPCs, Twilio API missions, and more. It was built with Phaser.js and Tiled.",
+            "url": "https://github.com/anthonyjdella/twilio-quest-booth-mission"
+        },
+        {
+            "name": "Summarize Text from Images",
+            "startDate": "",
+            "summary": "Developed a Python app that performs text recognition on photos then sends you a message with a summary. It uses the Google Cloud Vision API to detect text in images, OpenAI to generate a summary of the text, and the Twilio SMS API to alert users.",
+            "url": "https://github.com/anthonyjdella/nba-news"
+        },
+        {
+            "name": "Do You Like Scary Movies?",
+            "startDate": "",
+            "summary": "Created a serverless web app that spooks users by re-creating a famous scene from the movie Scream. Built with low-code tools and serveless functions, it's a fun application to share during Halloween.",
+            "url": "https://www.twilio.com/blog/do-you-like-scary-movies-build-a-halloween-project-with-twilio"
+        },
+        {
+            "name": "NBA News on Demand",
+            "startDate": "",
+            "summary": "Built a demo app in Python using the Twilio SMS API to send users on-demand NBA news. It's meant to guide beginners to send and receive incoming messages using Twilio.",
+            "url": "https://github.com/anthonyjdella/nba-news"
+        },
+        {
+            "name": "JSON Resume using LinkedIn",
+            "startDate": "",
+            "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, transform the data using a Python script, and build an online resume (hosted on Firebase). Developed and packaged multiple themes on NPM and GitHub Registry. Also created a subdomain name to point to this Firebase function.",
+            "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
+        },
+        {
+            "name": "www.AnthonyDellavecchia.com",
+            "startDate": "",
+            "summary": "Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed and hosted on Firebase & GitHub. It's integrated with my JSON resume project, so you can select a theme and view my resume.",
+            "url": "https://www.anthonydellavecchia.com"
+        },
+        {
+            "name": "Automated Job Scraping",
+            "startDate": "",
+            "summary": "Developed a server-side script with Node.js that automatically searches and scrapes data of job postings from select company websites, then sends a notification to the user.",
+            "url": "https://github.com/anthonyjdella/automated-job-web-scraping"
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/anthonyjdella/customized-resume-schema/blob/main/schema.json",
+        "theme": "caffeine"
+    }
+}

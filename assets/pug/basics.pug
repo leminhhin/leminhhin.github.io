@@ -1,0 +1,21 @@
+div(class='basics')
+    div(class='table')
+        div(class='main')
+            span(class='name')=resume.basics.name
+            span(class='label')=resume.basics.label
+
+            div(style="margin-bottom: 20px; margin-top: 20px;")
+                div(style="text-align: left;")
+
+                    span(style='width:33%; display: inline-block')
+                        =helper.calcLocation(resume.basics.location)
+
+                    span(style='width:33%; display: inline-block')
+                        a(href='tel:'+resume.basics.phone)!=helper.beautifyLink(resume.basics.phone)
+                    
+                div(style="text-align: left; margin-top: 10px;")
+                    span(style='width:33%; display: inline-block;')
+                            a(href='mailto:'+resume.basics.email)!=helper.beautifyLink(resume.basics.email)
+                    each profile in resume.basics.profiles
+                        span(style='width:33%; display: inline-block;')
+                            a(href=profile.url)!=helper.beautifyLink(profile.url)

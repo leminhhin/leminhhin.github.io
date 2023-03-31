@@ -1,0 +1,11 @@
+if helper.validArray(resume.writing)
+    div(class='writing margin-container-4')
+        p(class='section-title no-alone-2') Articles
+        div(class='container')
+            each writing in resume.writing
+                div(class='article margin-container-3')
+                    div(class='header no-alone-1')
+                        div(class='table')
+                            div(class='left' style='display:table-cell;')
+                                span(class='company-location margin-text-1')
+                                    a(href=writing.reference)=writing.name

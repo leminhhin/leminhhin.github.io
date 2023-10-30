@@ -1,49 +1,48 @@
 {
-    "name": "@anthonyjdella/jsonresume-theme-anthonyjdella-actual",
-    "main": "index.js",
-    "files": [
-        "/assets",
-        "index.js"
-    ],
-    "version": "1.0.7",
-    "description": "Actual theme for JSON Resume",
-    "author": "Anthony Dellavecchia",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/anthonyjdella/customized-jsonresume-theme-actual"
-    },
-    "scripts": {
-        "start": "resume serve --theme .",
-        "create-html": "resume export public/resume.html --format html --theme .",
-        "create-pdf": "resume export public/resume.pdf --format pdf --theme .",
-        "create-docs": "resume export docs/resume_extended.pdf --resume public/resume_extended.json --format pdf --theme . && resume export docs/resume_simple.pdf --resume public/resume_simple.json --format pdf --theme .",
-        "validate": "resume test",
-        "test": "jest",
-        "test:watch": "jest --watchAll",
-        "gulp": "gulp",
-        "gulp:css": "gulp css"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "@anthonyjdella/customized-resume-cli": "^1.0.6",
-        "iso-3166-1": "^2.0.1",
-        "markdown-it": "^12.0.4",
-        "moment": "^2.29.1",
-        "pug": "^3.0.0"
-    },
-    "devDependencies": {
-        "@semantic-release/git": "^10.0.0",
-        "browser-sync": "^2.26.14",
-        "eslint": "^7.18.0",
-        "eslint-config-standard": "^16.0.2",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "gulp": "^3.9.1",
-        "gulp-pug": "^5.0.0",
-        "gulp-sass": "^5.0.0",
-        "html-validate": "^4.3.0",
-        "jest": "^27.2.5",
-        "semantic-release": "^18.0.0"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run setup && next build",
+    "build-only": "next build",
+    "start": "next start",
+    "setup": "node ./lib/setup.mjs"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/edge-config": "^0.4.1",
+    "clsx": "^2.0.0",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "framer-motion": "^10.16.4",
+    "geist": "^1.0.0",
+    "googleapis": "^126.0.1",
+    "kysely": "^0.26.3",
+    "kysely-planetscale": "^1.4.0",
+    "next": "^14.0.0",
+    "next-auth": "5.0.0-beta.2",
+    "next-contentlayer": "^0.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-tweet": "^3.1.1",
+    "react-wrap-balancer": "^1.1.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-pretty-code": "^0.10.1",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^3.0.1",
+    "server-only": "^0.0.1",
+    "shiki": "^0.14.5",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.32",
+    "@types/react-dom": "18.2.14",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "5.2.2"
+  }
 }

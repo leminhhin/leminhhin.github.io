@@ -6,17 +6,17 @@ import Sidebar from './components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('http://leminhhin.github.io/'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Minh-Hien Le',
+    template: '%s | Minh-Hien Le',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Minh-Hien Le',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'http://leminhhin.github.io/',
+    siteName: 'Minh-Hien Le',
     locale: 'en_US',
     type: 'website',
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Minh-Hien Le',
     card: 'summary_large_image',
   },
   verification: {

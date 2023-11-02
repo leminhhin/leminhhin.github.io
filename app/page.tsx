@@ -1,43 +1,26 @@
 import { Suspense } from 'react';
-
-
-function Badge(props) {
-  return (
-    <a
-      {...props}
-      target="_blank"
-      className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100 no-underline"
-    />
-  );
-}
-
-
-function ProjectBadge({ name, url, desc }) {
-
-  return (
-    <a
-      href={url}
-      target='_blank'
-      className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
-    >
-      <div className="flex flex-col">
-        <p className="font-semibold prose prose-neutral dark:prose-invert">
-          {name}
-        </p>
-        <p className="prose prose-sm prose-neutral dark:prose-invert">
-          {desc}
-        </p>
-      </div>
-    </a>
-  );
-}
-
+import Badge from './components/organization-badge'
+import ProjectBadge from './components/project-badge'
 
 
 export default function Page() {
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Introducing Minh-Hien Le</h1>
+      <div className='flex flex-row space-x-8 items-end justify-between'>
+        <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Introducing Minh-Hien Le</h1>
+
+        {/* contact details */}
+        <div className='text-sm tracking-tight mb-8 prose prose-neutral dark:prose-invert space-x-2'>
+            <a href="mailto:minh.hin.le@gmail.com" className=''>Gmail</a>
+            <a>|</a>
+            <a href="https://www.linkedin.com/in/leminhhin/">LinkedIn</a>
+            <a>|</a>
+            <a href="http://github.com/leminhhin">GitHub</a>
+
+
+        </div>
+      </div>
+   
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           {`I'm an enterprising and self-driven AI engineer.
@@ -97,7 +80,7 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm deeply interested in generative models, including LLMs,
+          I&apos;m deeply interested in generative models, including LLMs,
           and enjoy building AI products. Below are some of my recent projects.
         </p>
       </div>
@@ -105,7 +88,7 @@ export default function Page() {
       <div className="my-8 flex flex-col space-y-4 w-full">
         <Suspense>
           <ProjectBadge
-            name="VIDES: Virtual Interior Design via Natural Language and Visual Guidance"
+            name="VIDES"
             url="https://arxiv.org/abs/2308.13795"
             desc="Multimodal generative AI-based system for interior design generation and modification utilizing natural language instructions and user interactions"
           />

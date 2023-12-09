@@ -23,8 +23,8 @@ export default function Page() {
    
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          {`I'm an enterprising and self-driven AI engineer.
-          Developing AI features for wellness applications at `}
+          {`I'm an AI engineer with a strong R&D background spanning the entire ML lifecycle.
+          Previously at `}
 
           <Badge href="https://www.fossilgroup.com/">
             <img
@@ -37,9 +37,8 @@ export default function Page() {
             Fossil Group
           </Badge>
 
-          {`, I introduced a novel sleep cycle-based smart alarm,
-          optimized battery usage through user motion detection,
-          and transformed signal collection with ML algorithms.`}
+          {`, I designed and developed end-to-end predictive AI features for wellness applications
+          enhancing user experiences and optimizing internal functionalities`}
         </p>
       </div>
 
@@ -59,8 +58,8 @@ export default function Page() {
           </Badge>
 
           {`. My thesis focuses on building a generative AI-based system for interior design
-          utilizing natural language instructions and user interactions,
-          received the highest score and was accepted to `}
+          utilizing natural language instructions and user interactions. The work
+          was presented at `}
 
           <Badge href="https://ismar23.org/">
             <img
@@ -73,15 +72,16 @@ export default function Page() {
             IEEE ISMAR 2023
           </Badge>
 
-          {`.`}
+          {` and was honored as a National Eureka Award finalist.`}
         </p>
       </div>
 
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I&apos;m deeply interested in generative models, including LLMs,
-          and enjoy building AI products. Below are some of my recent projects.
+          I&apos;m also deeply interested in generative models and actively exploring capabilities of LLMs
+          through building retrieval augmented generation applications and multi-agent simulations.
+          Below are some of my recent projects.
         </p>
       </div>
 
@@ -91,6 +91,11 @@ export default function Page() {
             name="VIDES"
             url="https://arxiv.org/abs/2308.13795"
             desc="Multimodal generative AI-based system for interior design generation and modification utilizing natural language instructions and user interactions"
+          />
+          <ProjectBadge
+            name="LM Go Undercover"
+            url="https://github.com/leminhhin/lm-go-undercover"
+            desc="Multi-agent LLM simulation for the social deduction game Undercover"
           />
           <ProjectBadge
             name="ML Interview Warmup"
